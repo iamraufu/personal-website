@@ -170,7 +170,7 @@ section {
 
 .inquiry-button {
     position: absolute;
-    top: 1010px;
+    top: 1410px;
     left: 450px;
     height: 18px;
     width: 72px;
@@ -178,6 +178,102 @@ section {
 
 .inquiry {
     position: absolute;
-    top: 2030px;
+    top: 2830px;
     left: 250px;
+}
+
+.price-per-build {
+    box-shadow: 10px 10px 40px rgb(22, 22, 22);
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.price-width {
+    width: 29%;
+    float: left;
+}
+
+.price-area {
+    width: 100%;
+    float: left;
+    height: 800px;
+    background-color: #417eba;
+}
+
+.price-area h2 {
+    text-align: center;
+    margin: 80px 150px;
+    font-family: 'Roboto';
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.price-area h3 {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #6C6C6C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price-area p {
+    text-align: center;
+    padding: 7px;
+}
+
+.prices {
+    width: 100%;
+    float: left;
+}
+
+#basic {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    height: 200px;
+}
+
+#standard {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    height: 400px;
+}
+
+#premium {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(241, 232, 102), rgb(210, 228, 50));
+    border-image-slice: 1;
+    height: 550px;
+}
+
+.foot {
+    margin-top: 380px;
+    float: left;
+    width: 20%;
+    height: 120px;
+    text-align: center;
+}
+
+.foot a {
+    text-decoration: none;
+}
+
+.foot h2 a {
+    text-align: center;
+    color: #3E3E3E;
+}
+
+.foot h4 {
+    color: #696871;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.foot img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px 19px;
 }
