@@ -24,17 +24,23 @@
     margin-left: 20px;
 }
 
-h1 {
+.top-menu h1 {
     color: #363958;
     font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
+    font-size: 50px;
 }
 
-h3,
-p {
+.top-menu h3 {
     color: #3E3E3E;
     font-family: 'Roboto';
     font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.mid-menu p {
+    color: #3E3E3E;
+    font-family: 'Roboto';
+    font-size: 18px;
     margin-bottom: 5%;
 }
 
@@ -47,7 +53,7 @@ section {
 }
 
 .half-width {
-    width: 38%;
+    width: 39%;
     float: left;
 }
 
@@ -77,28 +83,101 @@ section {
     font-family: 'Roboto';
     font-size: 16px;
     text-decoration: none;
-    /*
-    
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
+}
+
+.mid-menu {
+    padding: 10px 15px;
+}
+
+.mid-menu img {
+    width: 100%;
+    margin-left: 70px;
+}
+
+.about {
+    margin-top: 70px;
+    margin-left: 150px;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+
+.work-heading {
+    margin: 100px 50px 30px 50px;
+    text-align: center;
+}
+
+.work-space {
+    width: 100%;
+    height: 800px;
+}
+
+.work-area h3 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-family: 'Roboto';
     font-weight: 700;
-    */
+}
+
+.work-area p {
+    color: #6C6C6C;
+    text-align: justify;
 }
 
 .work-area {
-    box-shadow: 10px 10px 40px dimgray;
-    border-radius: 10px;
-    height: 80%;
-    background-color: white;
+    width: 100%;
+    float: left;
+    background-color: rgb(243, 242, 242);
+    height: 800px;
 }
 
+.work-area img {
+    height: 214px;
+    width: 344px;
+    padding-bottom: 10px;
+}
 
-/*
 .latest-work {
-    box-shadow: 10px 10px 40px dimgray;
+    border: 10px solid white;
     border-radius: 10px;
-    height: 80%;
+    box-shadow: 10px 10px 10px dimgray;
     background-color: white;
-}*/
+    height: 50%;
+    width: 25%;
+    margin: 30px;
+    padding: 5px;
+}
+
+#gym img {
+    border-left: 1px solid;
+    border-image: green;
+    border-image-slice: 1;
+    padding: 0;
+}
+
+.work-inquiry img {
+    margin: 80px 100px 200px 100px;
+    padding: 20px 80px 50px 80px;
+    height: 200px;
+    width: 930px;
+    align-content: center;
+}
+
+.work-inquiry h3 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 28px;
+}
+
+.inquiry-button {
+    position: absolute;
+    top: 1010px;
+    left: 450px;
+    height: 18px;
+    width: 72px;
+}
+
+.inquiry {
+    position: absolute;
+    top: 2030px;
+    left: 250px;
+}
